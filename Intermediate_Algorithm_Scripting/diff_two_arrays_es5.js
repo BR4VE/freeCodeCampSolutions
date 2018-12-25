@@ -8,7 +8,7 @@ function diffArray(arr1, arr2) {
     }
   });
   // do same for the second array
-  arr2.forEach(function(element) => {
+  arr2.forEach(function(element) {
     if(arr1.indexOf(element) < 0 && newArr.indexOf(element) < 0) {
       newArr.push(element);
     }
